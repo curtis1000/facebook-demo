@@ -1,4 +1,7 @@
-<?php require_once('includes/head.php'); ?>
+<?php
+    require_once('includes/bootstrap.php');
+    require_once('includes/head.php');
+?>
 <body>
 
 <div class="container">

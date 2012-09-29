@@ -1,10 +1,4 @@
-<?php
-    require_once('includes/facebook.php');
-    $facebook = new Facebook(array(
-        'appId'     => getenv('APP_ID'),
-        'secret'    => getenv('APP_SECRET')
-    ));
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
