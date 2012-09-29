@@ -15,7 +15,7 @@
     campaigns.</p>
 
     <h3>Javascript SKD Setup</h3>
-    <p>Before you can use any Facebook Javascript SDK methods, you must initialize it. See <a target="_blank" href="https://github.com/curtis1000/facebook-demo/blob/master/tab/includes/facebook_init.php">source code</a> for implementation.</p>
+    <p>Before you can use any Facebook Javascript SDK methods, you must initialize it. See <a target="_blank" href="https://github.com/curtis1000/facebook-demo/blob/master/tab/includes/facebook-js-sdk-init.php">source code</a> for implementation.</p>
     <h3>Getting the user logged in to the app</h3>
     <p>Reasons why you would need to log the user in to the app include:</p>
     <ul>
