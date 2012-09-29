@@ -3,7 +3,7 @@
 
 <div class="container">
 
-    <h1>Curt&#146;s FB Demo App</h1>
+    <h1>Curt&#146;s Facebook Demo App</h1>
     <hr />
     <h3>Public Pages</h3>
     <p>There is a common misconception that users must log in to Facebook and/or log in to the app in order to see
@@ -15,7 +15,7 @@
     campaigns.</p>
 
     <h3>Javascript SKD Setup</h3>
-    <p>Before you can use any Facebook Javascript SDK methods, you must initialize it. See source code for implementation.</p>
+    <p>Before you can use any Facebook Javascript SDK methods, you must initialize it. See <a target="_blank" href="https://github.com/curtis1000/facebook-demo/blob/master/tab/includes/facebook_init.php">source code</a> for implementation.</p>
     <h3>Getting the user logged in to the app</h3>
     <p>Reasons why you would need to log the user in to the app include:</p>
     <ul>

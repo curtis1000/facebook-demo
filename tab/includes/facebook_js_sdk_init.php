@@ -1,3 +1,4 @@
+<!-- this snippet goes in the body -->
 <div id="fb-root"></div>
 <script src="https://connect.facebook.net/en_US/all.js"></script>
 <script type="text/javascript">
