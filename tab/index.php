@@ -18,8 +18,8 @@ require_once('includes/head.php');
 
     <h3>SDK Setup</h3>
     <p>This demo uses the Javascript SDK and the PHP SDK.</p>
-    <p><a target="_blank" href="https://github.com/curtis1000/facebook-demo/blob/master/tab/includes/facebook-js-sdk-init.php">Source code to initialize the Javascript SDK. </a> </p>
-    <p></p>
+    <p><a target="_blank" href="https://github.com/curtis1000/facebook-demo/blob/master/tab/includes/facebook-js-sdk-init.php">Source code to initialize the Javascript SDK.</a></p>
+    <p><a target="_blank" href="https://github.com/curtis1000/facebook-demo/blob/master/tab/includes/facebook-php-sdk-init.php">Source code to initialize the PHP SDK.</a></p>
     <h3>Getting the user logged in to the app</h3>
     <p>Reasons why you would need to log the user in to the app include:</p>
     <ul>
