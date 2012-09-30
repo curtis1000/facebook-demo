@@ -8,6 +8,8 @@
  *
  * Don't publish your secret.
  */
+
+// load the official Facebook PHP Class
 require_once('includes/third-party/facebook.php');
 
 $facebook = new Facebook(array(

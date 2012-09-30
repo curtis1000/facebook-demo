@@ -9,6 +9,7 @@ require_once('includes/head.php');
 
     <h1>Curt&#146;s Facebook Demo App</h1>
     <hr />
+    <h3><a target="_blank" href="https://github.com/curtis1000/facebook-demo">This entire application is on GitHub.</a></h3>
     <h3>Public Pages</h3>
     <p>It is entirely in the programmer's control to determine which pages are public to the world and which pages require
     the user to be logged in.</p>
@@ -29,7 +30,8 @@ require_once('includes/head.php');
     <p> There are two ways to log a user in to the app:</p>
     <h4>1. Overlay window</h4>
     <p>Achieved via Javascript SDK's Login() method. See source code for implementation.</p>
-    <a class="login-overlay btn">Try it</a>
+    <a class="js-login btn">Try it</a>
+    <div class="js-login-result"></div>
     <h4>2. Redirect to a Facebook-hosted login page</h4>
     <p>Achieved via PHP SDK's getLoginUrl() method. See source code for implementation.</p>
     <a class="login-redirect btn">Try it</a>
