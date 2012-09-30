@@ -18,11 +18,16 @@ DEMO.JSLogin = {
             FB.login(function(response) {
                 if (response.authResponse) {
                     FB.api('/me', function(response) {
-                        alert('We now know who you are, ' + response.name + '.');
+                        // dump all the data we received about this person
+                        var output = '' +
+                            '<pre><h5>Data returned from Javascript SDK\'s Login method:</h5>' + DEMO.Util.varDump(response) + '</pre>';
+
+                        $('.js-login-result').html(output);
                     });
                 } else {
-                    alert('User cancelled login or did not fully authorize.');
+                    $('.js-login-result').html('<code>User cancelled login or did not fully authorize.</code>');
                 }
+
             });
         });
     }
