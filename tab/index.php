@@ -25,18 +25,19 @@ require_once('includes/head.php');
     <li><a target="_blank" href="https://github.com/curtis1000/facebook-demo/blob/master/tab/includes/facebook-php-sdk-init.php">Source code to initialize the PHP SDK.</a></li>
     </ul>
     <hr />
-    <h3>Getting the user logged in to the app</h3>
+    <h3>Logging the user in and out of the app</h3>
     <p>Reasons why you would need to log the user in to the app include:</p>
     <ul>
         <li>Getting the user's Facebook ID</li>
         <li>Performing some type of Facebook API interaction that requires approval from the user</li>
     </ul>
-    <p> There are two ways to log a user in to the app:</p>
-    <h4>1. Overlay window</h4>
+    <p> Here's how to do it:</p>
+    <h4>1. Javascript SDK</h4>
     <ul>
-        <li>Achieved via the Javascript SDK's Login method.</li>
+        <li>First we will check if the user is logged in via FB.getLoginStatus, and only display the login overlay if necessary.</li>
+        <li>Login is presented, if necessary, in a modal window over the app via FB.Login method.</li>
+
         <li><a target="_blank" href="https://github.com/curtis1000/facebook-demo/blob/master/tab/assets/scripts/facebook-js-login.js">See source code for implementation.</a></li>
-        <li>Overlay will only display if user is not logged in to Facebook or user has not previously granted all permissions being asked for.</li>
     </ul>
     <a class="js-login btn">Try it</a>
     <div class="js-login-result"></div>
